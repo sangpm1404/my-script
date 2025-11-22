@@ -79,8 +79,8 @@ def call_FA(code, from_date, verification_token):
 
 
 # Send message to telegram
-BOT_TOKEN = '1380004307:AAHcvykavkr6rvh1F6HENalXGWcW4acmfis' #@sang191561Bot
-CHAT_ID = '-1001444244947' #Channel ID
+BOT_TOKEN = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX' #Tele Bot Token
+CHAT_ID = 'XXXXXXXXXXX' #Channel ID
 def send_telegram_message(message):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     data = {
